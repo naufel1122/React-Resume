@@ -6,7 +6,10 @@ function Hi() {
     return (<div className="Body">
         <div className="First">
         <div className="Education">
+            <div className="fff"></div>
+            <div className="eee">
 
+            </div>
         </div>
         </div>
     </div>)
