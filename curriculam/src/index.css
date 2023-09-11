@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.First{
+  height: 90vh;
+  width:700px;
+  background-color: #fff  ;
+  margin-top: 50px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.Education{
+  height: 100%;
+  width:200px;
+  background-color: #44736d;
+  margin-left:60px;
+}
