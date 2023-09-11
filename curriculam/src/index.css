@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -13,32 +14,67 @@ code {
 }
 
 body {
-  background-color: #f4f4f4;
+  background-color: #dcb684;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .First{
+  display: flex;
   height: 90vh;
-  width:700px;
+  width:600px;
   background-color: #fff  ;
-  margin-top: 50px;
+  margin-top: 30px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
-.Education{
-height: 100%;
-width: 100%;
-overflow: hidden;
+.First .white{
+height:100% ;
+width: 50%;
+background-color: #ffff;
+}
+.First .white .white-main{
+  padding: 30px;
 
 }
-.eee{
-  height: 100%;
-  width:200px;
-  background-color: #44736d;
-  margin-left:60px;
+.First .white  .white-main h1{
+  text-align: center;
+  color: #010101;
+  font-size: 38px;
+  text-transform: uppercase;
+  font-family: 'Kanit', sans-serif;
 }
-.fff{
-  height:200px;
-  width: 100%;
-  background-color: aquamarine;
+.First .white  .white-main p{
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+.First .white  .white-main h3{
+  text-align:end ;
+}
+.First .white  .white-main .para-2{
+  line-height: 15px;
+  text-align: start;
+font-size: 14px;
+margin-right: 20px;
+font-weight: 100;
+}
+/*  */
+.First .white .white-main a{
+  /* padding: 20px; */
+  text-decoration: none;
+  color: #010101;
+  font-size: 15px;
+}
+.First .Black{
+  height: 100%;
+  width: 50%;
+  background :#292826;
+}
+.First .Black h1{
+  text-align: center;
+  color: #fff;
+  font-size: 38px;
+  text-transform: uppercase;
+  font-family: 'Kanit', sans-serif;
 }
