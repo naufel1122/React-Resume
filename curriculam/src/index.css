@@ -59,12 +59,19 @@ font-size: 14px;
 margin-right: 20px;
 font-weight: 100;
 }
-/*  */
-.First .white .white-main a{
-  /* padding: 20px; */
+.First .white .white-main .ancor{
+  text-align: end;
+  line-height: 5px;   
+}
+.First .white .white-main .ancor a{
   text-decoration: none;
   color: #010101;
   font-size: 15px;
+}
+.First .white .white-main .ancor a img{
+  margin-left:10px ;
+  height: 24px;
+  width: 24px; 
 }
 .First .Black{
   height: 100%;

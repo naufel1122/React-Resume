@@ -17,9 +17,15 @@ function Hi() {
                     <h3>Profile:</h3>
                     <p className="para-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere molestias, facilis doloribus nobis mollitia aspernatur, nihil eum repudiandae numquam corrupti, sint incidunt distinctio totam ipsa quae dicta quibusdam adipisci vel!</p>
                 <br />
-                   <a href="tel:+923240539139"> +92 324-0539-139 <img src={phone} alt="img" /></a>
+                <div className="ancor">
+                   <a href="tel:+923240539139"> +92 324-053-9139  <img src={phone} alt="img" /></a>
+                   </div>
+                   <div className="ancor">
                    <a href="mailto:">Nofil.khan037@gmail.com<img src={mail} alt="img" /> </a>
+                   </div>
+                   <div className="ancor">
                    <a href="#"> Muhammad Nofil<img src={linkedin} alt="img" /></a>
+                   </div>
                 </div>
             </div>
             <div className="Black">
