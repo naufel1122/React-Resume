@@ -2,8 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import './index.css';
 import phone from './phone.png';
-import mail from './mail.png';
-import linkedin from './linkedin.svg';
+import mail from './mailsvg.svg';
+import linkedin from './linkedinsvg.svg';
 
 
 function Hi() {
@@ -25,6 +25,10 @@ function Hi() {
                    </div>
                    <div className="ancor">
                    <a href="#"> Muhammad Nofil<img src={linkedin} alt="img" /></a>
+                   </div>
+                   <div className="education">
+                    <h2>Education</h2>
+                    <p>Sylani Mass IT Traning (SMIT)</p>
                    </div>
                 </div>
             </div>
