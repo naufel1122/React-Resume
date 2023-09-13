@@ -18,6 +18,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 .First{
   display: flex;
@@ -30,27 +31,30 @@ body {
 .First .white{
 height:100% ;
 width: 50%;
-background-color: #ffff;
+background-color: #292826;
 }
 .First .white .white-main{
-  padding: 30px;
+  padding: 22px;
 
 }
 .First .white  .white-main h1{
   text-align: center;
-  color: #010101;
+  color: #FFF;
+  /* color: #010101; */
   font-size: 38px;
   text-transform: uppercase;
   font-family: 'Kanit', sans-serif;
 }
-.First .white  .white-main p{
+.First .white  .white-main .title{
+  color: #FFF;
   text-align: center;
   font-family: 'Kanit', sans-serif;
   font-size: 20px;
   font-weight: 300;
 }
-.First .white  .white-main h3{
+.First .white  .white-main h2{
   text-align:end ;
+  color: #FFF;
 }
 .First .white  .white-main .para-2{
   line-height: 15px;
@@ -58,37 +62,56 @@ background-color: #ffff;
 font-size: 14px;
 margin-right: 20px;
 font-weight: 100;
+color: #fff;
 }
 .First .white .white-main .ancor{
   text-align: end;
   line-height: 5px; 
 }
 .First .white .white-main .ancor a{
+  color: #FFF;
   text-decoration: none;
-  color: #010101;
+  /* color: #010101; */
   font-size: 15px;
 }
 .First .white .white-main .ancor a img{
   margin-left:10px ;
-  height: 24px;
-  width: 24px;
+  height: 26px;
+  width: 26px;
   margin-top: 5px; 
-  background-color: #c9c4c1;
-  border-radius: 15px;
+  /* background-color: #c9c4c1; */
+  background-color: #fff;
+  border-radius: 18px;
   padding: 4px;
   color: #fff;
 }
 .education{
   text-align: end;
+  color: #FFF;
+  line-height:20px;
+}
+ .edu-para{
+font-size: 16px;
+font-weight: 500;
+text-align: start;
+}
+.skills {
+  margin-bottom: -10px;
+}
+.skills ul{
+  color: #FFF;
+  text-decoration: none;
+  list-style: none;
+  line-height: 16px;
 }
 .First .Black{
   height: 100%;
   width: 50%;
-  background :#292826;
+  background-color: #fff;
 }
 .First .Black h1{
+  color: #292826;
   text-align: center;
-  color: #fff;
   font-size: 38px;
   text-transform: uppercase;
   font-family: 'Kanit', sans-serif;

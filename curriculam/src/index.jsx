@@ -12,9 +12,9 @@ function Hi() {
             <div className="white">
                 <div className="white-main">
                     <h1>M.Naufel</h1>
-                    <p>Frontend Developer </p>
+                    <p className="title">Frontend Developer </p>
                     <br /><br />
-                    <h3>Profile:</h3>
+                    <h2>Profile</h2>
                     <p className="para-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere molestias, facilis doloribus nobis mollitia aspernatur, nihil eum repudiandae numquam corrupti, sint incidunt distinctio totam ipsa quae dicta quibusdam adipisci vel!</p>
                 <br />
                 <div className="ancor">
@@ -28,7 +28,22 @@ function Hi() {
                    </div>
                    <div className="education">
                     <h2>Education</h2>
-                    <p>Sylani Mass IT Traning (SMIT)</p>
+                    <p className="edu-para" >Sylani Mass IT Traning (SMIT)</p>
+                    <p className="edu-para">2022-2023 </p>
+                   </div>
+                   <div className="skills">
+                    <h2>Skills</h2>
+                    <div className="skill-ul">
+                    <ul >
+                        <li>HTML 5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript ES6</li>
+                        <li>ExpressJs</li>
+                        <li>NodeJs</li>
+                        <li>ReactJs</li>
+                        <li>MongoDB</li>
+                    </ul>
+                    </div>
                    </div>
                 </div>
             </div>
