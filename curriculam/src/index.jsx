@@ -35,13 +35,13 @@ function Hi() {
                     <h2>Skills</h2>
                     <div className="skill-ul">
                     <ul >
-                        <li>HTML 5</li>
-                        <li>CSS3</li>
-                        <li>JavaScript ES6</li>
-                        <li>ExpressJs</li>
-                        <li>NodeJs</li>
-                        <li>ReactJs</li>
-                        <li>MongoDB</li>
+                        <li >HTML 5</li>
+                        <li >CSS3</li>
+                        <li >JavaScript ES6</li>
+                        <li >ExpressJs</li>
+                        <li >NodeJs</li>
+                        <li >ReactJs</li>
+                        <li >MongoDB</li>
                     </ul>
                     </div>
                    </div>

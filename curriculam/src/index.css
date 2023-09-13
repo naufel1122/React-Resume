@@ -98,11 +98,13 @@ text-align: start;
 .skills {
   margin-bottom: -10px;
 }
-.skills ul{
-  color: #FFF;
-  text-decoration: none;
+.skills ul{  text-decoration: none;
   list-style: none;
   line-height: 16px;
+}
+.skills ul li{
+color: #fff;
+font-weight: 500;
 }
 .First .Black{
   height: 100%;
