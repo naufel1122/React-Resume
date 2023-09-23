@@ -43,7 +43,7 @@ body {
 .First .white .img{
   /* height: 250px; */
   /* width:250px; */
-  /* margin-left: -2px; */
+  /* margin-left: -2ddepx; */
   /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
   background: #d7d7d7;
 }
@@ -90,6 +90,105 @@ body {
   display: flex;
   justify-content:center ;
 }
+
+
+.phone {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* height: 20px; */
+}
+.phone .empty{
+  /* height: 20px; */
+  background-color: #fdcb03;
+  width:20%;
+}
+.phone .contact{
+  background-color: #3e3f46;
+  width: 80%;
+  height: 30px;
+}
+.phone .contact p{
+  margin-top: 6px;
+}
+.First .white a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  /* margin-top: 15px; */
+  margin-left: 90px;
+}
+
+
+
+
+.Email {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* height: 20px; */
+}
+.Email .empty{
+  /* height: 20px; */
+  background-color: #fdcb03;
+  width:20%;
+}
+.Email .contact{
+  background-color: #3e3f46;
+  width: 80%;
+  height: 30px;
+}
+.Email .contact p{
+  margin-top: 6px;
+}
+
+
+
+.Github {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* height: 20px; */
+}
+.Github .empty{
+  /* height: 20px; */
+  background-color: #fdcb03;
+  width:20%;
+}
+.Github .contact{
+  background-color: #3e3f46;
+  width: 80%;
+  height: 30px;
+}
+.Github .contact p{
+  margin-top: 6px;
+}
+
+
+
+.address {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* height: 20px; */
+}
+.address .empty{
+  /* height: 20px; */
+  background-color: #fdcb03;
+  width:20%;
+}
+.address .contact{
+  background-color: #3e3f46;
+  width: 80%;
+  height: 30px;
+}
+.address .contact p{
+  margin-top: 6px;
+}
+
 
 .First .Black {
   height: 100%;
