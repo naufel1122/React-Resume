@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import './index.css';
-import myimg from './MyImage.png';
+import myimg from './MyImgEdit2.png';
 import mail from './mailsvg.svg';
 import linkedin from './linkedinsvg.svg';
 
@@ -10,7 +10,10 @@ function Hi() {
     return (<div className="Body">
         <div className="First">
             <div className="white">
-              <img height={260} width={235} src={myimg} alt="" />
+                <div className="img">
+
+              <img  src={myimg} alt="" />
+                </div>
                 <h3>EDUCATION</h3>
                 <div className="line"></div>
                 <p>Matriculation </p>

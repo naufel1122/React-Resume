@@ -40,6 +40,19 @@ body {
   /* text-align:center; */
   line-height: 10px;
 }
+.First .white .img{
+  /* height: 250px; */
+  /* width:250px; */
+  /* margin-left: -2px; */
+  /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
+  background: #d7d7d7;
+}
+
+.First .white .img img{
+  border-radius: 100%;
+  height: 100%;
+  width: 100%;
+}
 .First .white h3{
   margin-left: 45px;
   color: #f7f7f7;
