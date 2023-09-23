@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body {
   margin: 0;
@@ -20,12 +21,13 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  font-family: 'Inter', sans-serif;
 }
 
 .First {
   display: flex;
   height: 90vh;
-  width: 600px;
+  width: 700px;
   background-color: #fff;
   margin-top: 30px;
   /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
@@ -40,7 +42,8 @@ body {
   /* text-align:center; */
   line-height: 10px;
 }
-.First .white .img{
+
+.First .white .img {
   /* height: 250px; */
   /* width:250px; */
   /* margin-left: -2ddepx; */
@@ -48,79 +51,85 @@ body {
   background: #d7d7d7;
 }
 
-.First .white .img img{
+.First .white .img img {
   border-radius: 100%;
   height: 100%;
   width: 100%;
 }
-.First .white h3{
+
+.First .white h3 {
   margin-left: 45px;
   color: #f7f7f7;
   font-weight: 500;
 }
 
-.First .white p{
+.First .white p {
   color: #f7f7f7;
   font-weight: 400;
   margin-left: 45px;
   font-size: 20px;
   line-height: 14px;
 }
-.First .white .school{
+
+.First .white .school {
   color: #f7f7f7;
   font-weight: 300;
   margin-left: 45px;
   font-size: 13px;
 }
-.First .white .college{
+
+.First .white .college {
   color: #f7f7f7;
   font-weight: 300;
   margin-left: 45px;
   font-size: 13px;
 }
-.First .white  .merit{
+
+.First .white .merit {
   font-size: 16px;
   font-weight: 500;
 }
+
 .First .white .line {
   margin-left: 45px;
   height: 1px;
   width: 100%;
   background-color: #fdcb03;
   display: flex;
-  justify-content:center ;
+  justify-content: center;
 }
-
 
 .phone {
   display: flex;
   flex-direction: row;
   width: 100%;
+  margin-top: 50px;
   /* height: 20px; */
 }
-.phone .empty{
+
+.phone .empty {
   /* height: 20px; */
   background-color: #fdcb03;
-  width:20%;
+  width: 20%;
 }
-.phone .contact{
+
+.phone .contact {
   background-color: #3e3f46;
   width: 80%;
   height: 30px;
 }
-.phone .contact p{
+
+.phone .contact p {
   margin-top: 6px;
 }
-.First .white a{
+
+.First .white a {
   text-decoration: none;
   color: #fff;
   font-size: 12px;
   /* margin-top: 15px; */
   margin-left: 90px;
 }
-
-
-
 
 .Email {
   margin-top: 10px;
@@ -129,21 +138,22 @@ body {
   width: 100%;
   /* height: 20px; */
 }
-.Email .empty{
+
+.Email .empty {
   /* height: 20px; */
   background-color: #fdcb03;
-  width:20%;
+  width: 20%;
 }
-.Email .contact{
+
+.Email .contact {
   background-color: #3e3f46;
   width: 80%;
   height: 30px;
 }
-.Email .contact p{
+
+.Email .contact p {
   margin-top: 6px;
 }
-
-
 
 .Github {
   margin-top: 10px;
@@ -152,21 +162,22 @@ body {
   width: 100%;
   /* height: 20px; */
 }
-.Github .empty{
+
+.Github .empty {
   /* height: 20px; */
   background-color: #fdcb03;
-  width:20%;
+  width: 20%;
 }
-.Github .contact{
+
+.Github .contact {
   background-color: #3e3f46;
   width: 80%;
   height: 30px;
 }
-.Github .contact p{
+
+.Github .contact p {
   margin-top: 6px;
 }
-
-
 
 .address {
   margin-top: 10px;
@@ -175,31 +186,84 @@ body {
   width: 100%;
   /* height: 20px; */
 }
-.address .empty{
+
+.address .empty {
   /* height: 20px; */
   background-color: #fdcb03;
-  width:20%;
+  width: 20%;
 }
-.address .contact{
+
+.address .contact {
   background-color: #3e3f46;
   width: 80%;
   height: 30px;
 }
-.address .contact p{
+
+.address .contact p {
   margin-top: 6px;
 }
 
+.First .white .add {
+  font-size: 12px;
+  margin-top: 3px;
+  margin-left: 90px;
+}
 
 .First .Black {
   height: 100%;
-  width: 50%;
+  width: 60%;
   background-color: #fff;
 }
 
-.First .Black h1 {
-  color: #292826;
-  text-align: center;
-  font-size: 38px;
-  text-transform: uppercase;
-  font-family: 'Kanit', sans-serif;
+.First .Black .title {
+  background-color: #fdcb03;
+  height: 125px;
+  width: 100%;
+  margin-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
+
+.First .Black .title h1 {
+  margin-left: -45px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.First .Black .title h1 span{
+  font-weight: 500;
+}
+.First .Black .title  p{
+  margin-top: -20px;
+  margin-right:110px;
+  justify-content: start;
+}
+
+.First .Black .all-other {
+padding: 20px 40px;
+}
+
+.First .Black .all-other h1{
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 800;
+  color: #757575;
+  font-family: 'Inter', sans-serif;
+}
+
+.First .Black .all-other .line-2{
+  height: 4px;
+  width: 100%;
+  background-color: #cbcbcc;
+}
+
+.First .Black .all-other p {
+  font-size: 14px;
+  font-weight: 400;
+  }
+  
