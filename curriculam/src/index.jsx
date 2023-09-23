@@ -66,6 +66,22 @@ function Hi() {
                     <p>I am currently enrolled in SMIT (Saylani Mass IT Training),specializing in MERN STACK Development. I have successfully completed training in HTML5, CSS3, Bootstrap, JavaScript ES6, Express.js, Node.js, Firebse, MongoDB & React</p>
                     <h1>Software Skills</h1>
                     <div className="line-2"></div>
+                    <div className="ul">
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>BootStrap</li>
+                            <li>JavaScript ES6</li>
+                            <li>Express Js</li>
+                        </ul>
+                        <ul>
+
+                            <li>Node Js</li>
+                            <li>React Js</li>
+                            <li>FireBase</li>
+                            <li>MongoDB</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 

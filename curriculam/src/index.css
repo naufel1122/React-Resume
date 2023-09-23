@@ -103,7 +103,7 @@ body {
   display: flex;
   flex-direction: row;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 30px;
   /* height: 20px; */
 }
 
@@ -235,20 +235,21 @@ body {
   text-transform: uppercase;
 }
 
-.First .Black .title h1 span{
+.First .Black .title h1 span {
   font-weight: 500;
 }
-.First .Black .title  p{
+
+.First .Black .title p {
   margin-top: -20px;
-  margin-right:110px;
+  margin-right: 110px;
   justify-content: start;
 }
 
 .First .Black .all-other {
-padding: 20px 40px;
+  padding: 20px 40px;
 }
 
-.First .Black .all-other h1{
+.First .Black .all-other h1 {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 800;
@@ -256,7 +257,7 @@ padding: 20px 40px;
   font-family: 'Inter', sans-serif;
 }
 
-.First .Black .all-other .line-2{
+.First .Black .all-other .line-2 {
   height: 4px;
   width: 100%;
   background-color: #cbcbcc;
@@ -265,5 +266,19 @@ padding: 20px 40px;
 .First .Black .all-other p {
   font-size: 14px;
   font-weight: 400;
-  }
+}
+
+.First .Black .all-other .ul {
+  display: flex;
+  margin-top: 20px;
+  margin-left: -20px;
+  /* list-style: none; */
+  line-height: 25px;
+}
+
+.First .Black .all-other .ul ul {
+  /* list-style: none; */
+  /* margin-right: 20px; */
+  font-size: 18px;
   
+}
