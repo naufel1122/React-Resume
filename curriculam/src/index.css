@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -14,104 +15,76 @@ code {
 }
 
 body {
-  background-color: #dcb684;
+  background-color: #d7d7d7;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
-.First{
+
+.First {
   display: flex;
   height: 90vh;
-  width:600px;
-  background-color: #fff  ;
-  margin-top: 30px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-}
-.First .white{
-height:100% ;
-width: 50%;
-background-color: #292826;
-}
-.First .white .white-main{
-  padding: 22px;
-
-}
-.First .white  .white-main h1{
-  text-align: center;
-  color: #FFF;
-  /* color: #010101; */
-  font-size: 38px;
-  text-transform: uppercase;
-  font-family: 'Kanit', sans-serif;
-}
-.First .white  .white-main .title{
-  color: #FFF;
-  text-align: center;
-  font-family: 'Kanit', sans-serif;
-  font-size: 20px;
-  font-weight: 300;
-}
-.First .white  .white-main h2{
-  text-align:end ;
-  color: #FFF;
-}
-.First .white  .white-main .para-2{
-  line-height: 15px;
-  text-align: start;
-font-size: 14px;
-margin-right: 20px;
-font-weight: 100;
-color: #fff;
-}
-.First .white .white-main .ancor{
-  text-align: end;
-  line-height: 5px; 
-}
-.First .white .white-main .ancor a{
-  color: #FFF;
-  text-decoration: none;
-  /* color: #010101; */
-  font-size: 15px;
-}
-.First .white .white-main .ancor a img{
-  margin-left:10px ;
-  height: 26px;
-  width: 26px;
-  margin-top: 5px; 
-  /* background-color: #c9c4c1; */
+  width: 600px;
   background-color: #fff;
-  border-radius: 18px;
-  padding: 4px;
-  color: #fff;
+  margin-top: 30px;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
-.education{
-  text-align: end;
-  color: #FFF;
-  line-height:20px;
+
+.First .white {
+  height: 100%;
+  width: 40%;
+  /* background-color: #292826; */
+  background: #212026;
+  /* text-align:center; */
+  line-height: 10px;
 }
- .edu-para{
-font-size: 16px;
-font-weight: 500;
-text-align: start;
+.First .white h3{
+  margin-left: 45px;
+  color: #f7f7f7;
+  font-weight: 500;
 }
-.skills {
-  margin-bottom: -10px;
+
+.First .white p{
+  color: #f7f7f7;
+  font-weight: 400;
+  margin-left: 45px;
+  font-size: 20px;
+  line-height: 14px;
 }
-.skills ul{  text-decoration: none;
-  list-style: none;
-  line-height: 16px;
+.First .white .school{
+  color: #f7f7f7;
+  font-weight: 300;
+  margin-left: 45px;
+  font-size: 13px;
 }
-.skills ul li{
-color: #fff;
-font-weight: 500;
+.First .white .college{
+  color: #f7f7f7;
+  font-weight: 300;
+  margin-left: 45px;
+  font-size: 13px;
 }
-.First .Black{
+.First .white  .merit{
+  font-size: 16px;
+  font-weight: 500;
+}
+.First .white .line {
+  margin-left: 45px;
+  height: 1px;
+  width: 100%;
+  background-color: #fdcb03;
+  display: flex;
+  justify-content:center ;
+}
+
+.First .Black {
   height: 100%;
   width: 50%;
   background-color: #fff;
 }
-.First .Black h1{
+
+.First .Black h1 {
   color: #292826;
   text-align: center;
   font-size: 38px;

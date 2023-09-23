@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import './index.css';
-import phone from './phone.png';
+import myimg from './MyImage.png';
 import mail from './mailsvg.svg';
 import linkedin from './linkedinsvg.svg';
 
@@ -10,45 +10,19 @@ function Hi() {
     return (<div className="Body">
         <div className="First">
             <div className="white">
-                <div className="white-main">
-                    <h1>M.Naufel</h1>
-                    <p className="title">Frontend Developer </p>
-                    <br /><br />
-                    <h2>Profile</h2>
-                    <p className="para-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere molestias, facilis doloribus nobis mollitia aspernatur, nihil eum repudiandae numquam corrupti, sint incidunt distinctio totam ipsa quae dicta quibusdam adipisci vel!</p>
-                <br />
-                <div className="ancor">
-                   <a href="tel:+923240539139"> +92 324-053-9139  <img src={phone} alt="img" /></a>
-                   </div>
-                   <div className="ancor">
-                   <a href="mailto:">Nofil.khan037@gmail.com<img src={mail} alt="img" /> </a>
-                   </div>
-                   <div className="ancor">
-                   <a href="#"> Muhammad Nofil<img src={linkedin} alt="img" /></a>
-                   </div>
-                   <div className="education">
-                    <h2>Education</h2>
-                    <p className="edu-para" >Sylani Mass IT Traning (SMIT)</p>
-                    <p className="edu-para">2022-2023 </p>
-                   </div>
-                   <div className="skills">
-                    <h2>Skills</h2>
-                    <div className="skill-ul">
-                    <ul >
-                        <li >HTML 5</li>
-                        <li >CSS3</li>
-                        <li >JavaScript ES6</li>
-                        <li >ExpressJs</li>
-                        <li >NodeJs</li>
-                        <li >ReactJs</li>
-                        <li >MongoDB</li>
-                    </ul>
-                    </div>
-                   </div>
-                </div>
+              <img height={260} width={235} src={myimg} alt="" />
+                <h3>EDUCATION</h3>
+                <div className="line"></div>
+                <p>Matriculation </p>
+                <p className="school">School Of Knowledge <br />2019</p>
+                <p>Intermediate</p>
+                <p className="college">Govt Degree College <br />2021</p>
+                <h3>REFERENCE</h3>
+                <div className="line"></div>
+                <p className="merit" >On Merit</p>
+                
             </div>
             <div className="Black">
-                <h1>Jeelani</h1>
             </div>
 
         </div>
