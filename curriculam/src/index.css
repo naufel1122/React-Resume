@@ -1,19 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
 body {
   background-color: #d7d7d7;
@@ -26,28 +14,20 @@ body {
 
 .First {
   display: flex;
-  height: 90vh;
-  width: 700px;
+  height: 842px;
+  width: 40em;
   background-color: #fff;
-  margin-top: 30px;
-  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .First .white {
   height: 100%;
   width: 40%;
-  /* background-color: #292826; */
   background: #212026;
-  /* text-align:center; */
-  line-height: 10px;
+  /* line-height: 10px; */
 }
 
 .First .white .img {
-  /* height: 250px; */
-  /* width:250px; */
-  /* margin-left: -2ddepx; */
-  /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
   background: #d7d7d7;
 }
 
@@ -61,13 +41,14 @@ body {
   margin-left: 45px;
   color: #f7f7f7;
   font-weight: 500;
+  font-size: 1.1em;
 }
 
 .First .white p {
   color: #f7f7f7;
   font-weight: 400;
   margin-left: 45px;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 14px;
 }
 
@@ -121,6 +102,8 @@ body {
 
 .phone .contact p {
   margin-top: 6px;
+  font-weight: 600;
+  font-size: 1em;
 }
 
 .First .white a {
@@ -153,6 +136,8 @@ body {
 
 .Email .contact p {
   margin-top: 6px;
+  font-size: 1em;
+  font-weight: 600;
 }
 
 .Github {
@@ -177,6 +162,8 @@ body {
 
 .Github .contact p {
   margin-top: 6px;
+  font-size: 1em;
+  font-weight: 600;
 }
 
 .address {
@@ -201,6 +188,8 @@ body {
 
 .address .contact p {
   margin-top: 6px;
+  font-size: 1em;
+  font-weight: 600;
 }
 
 .First .white .add {
@@ -228,6 +217,7 @@ body {
 }
 
 .First .Black .title h1 {
+  font-size: 28px;
   margin-left: -45px;
   font-family: 'Inter', sans-serif;
   font-weight: 900;
@@ -241,7 +231,7 @@ body {
 
 .First .Black .title p {
   margin-top: -20px;
-  margin-right: 110px;
+  margin-right: 83px;
   justify-content: start;
 }
 

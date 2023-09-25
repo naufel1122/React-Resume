@@ -2,8 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import './index.css';
 import myimg from './MyImgEdit2.png';
-import mail from './mailsvg.svg';
-import linkedin from './linkedinsvg.svg';
 
 
 function Hi() {
@@ -15,9 +13,9 @@ function Hi() {
                 </div>
                 <h3>EDUCATION</h3>
                 <div className="line"></div>
-                <p>Matriculation </p>
+                <p>Matriculation : </p>
                 <p className="school">School Of Knowledge <br />2019</p>
-                <p>Intermediate</p>
+                <p>Intermediate :</p>
                 <p className="college">Govt Degree College <br />2021</p>
                 <h3>REFERENCE</h3>
                 <div className="line"></div>
@@ -60,7 +58,8 @@ function Hi() {
                 <div className="all-other">
                     <h1>About Me</h1>
                     <div className="line-2"></div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolore debitis iste quidem quaerat placeat, provident aut quae obcaecati minus ad fugit adipisci eligendi facere odio sapiente architecto dolorum molestiae?</p>
+                    <p>
+                        I am a dedicated and highly skilled Frontend Developer with a strong proficiency in the MERN (MongoDB, Express.js, React, Node.js) stack. With a passion for creating intuitive and visually appealing web applications, I am excited to embark on a journey to build responsive, user-centric interfaces that elevate the overall user experience.</p>
                     <h1>Certification</h1>
                     <div className="line-2"></div>
                     <p>I am currently enrolled in SMIT (Saylani Mass IT Training),specializing in MERN STACK Development. I have successfully completed training in HTML5, CSS3, Bootstrap, JavaScript ES6, Express.js, Node.js, Firebse, MongoDB & React</p>
